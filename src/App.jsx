@@ -5,7 +5,6 @@ const App = () => {
   const [filter, setFilter] = useState("all");
   const [results, setResults] = useState([]);
 
-  // this is data list add this commonet
   const dataList = [
     { id: 1, title: "React Basics", category: "React" },
     { id: 2, title: "Understanding Tailwind CSS", category: "CSS" },
